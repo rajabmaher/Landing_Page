@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+}
+
+
+header {
+    background-color: #1f2937;/* if we don't want to be flexable with the page give it a width 1200px in the Parent contener */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+.head1 {
+    flex: 1;
+}
+h1 > a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 24px; 
+}
+nav > ul {
+    display: flex;
+    gap: 20px;
+    
+}
+ul > li {
+    flex: 1;
+}
+li > a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.one {
+   /* if we want to be flexable with the page background-color: #1f2937; & delete the width inside the .one-one selecter */
+}
+.one-one {
+    margin: auto;
+    width: 1200px;
+    height: 400px;
+    background-color: #1f2937;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+.one1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.one1 > h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.one1 > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.one1 > button {
+    height: 40px;
+    width: 120px;
+    align-self: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+.one2 {
+    flex: 1;
+    height: 250px;
+    align-self: center;
+    background-image: url(https://images.pexels.com/photos/2536965/pexels-photo-2536965.jpeg?auto=compress&cs=tinysrgb&w=500);
+    background: cover;
+    border-radius: 25px;
+}
+
+
+.two {
+    width: 1200px; /* if we want to be flexable with the page delete the width*/
+    margin: auto;
+    padding: 30px;
+}
+.two > h2 {
+    color: #1f2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+.Categories {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Categories > .products {
+    flex: 1;
+    display: flex;
+    gap: 50px;
+}
+.products > .Categorie {
+    flex: 1;
+}
+.Categorie > h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.product > img {
+    width: 570px;
+    height: 300px;
+    border-radius: 30px;
+    border: 5px solid;
+    flex: 1;
+}
+/*
+.products > .Categorie {
+    flex: 1;
+}
+.product {
+    flex: 1;
+    height: 200px;
+    border: 5px solid;
+}
+without the pthotos
+*/
+
+.three {
+    /*background-color: #e5e7eb;*/
+    font-size: 24px;
+    font-style: light italic;
+    color: #1f2937;
+}
+.three-one {
+    background-color: #e5e7eb; /* if we want to be flexable with the page delete the width and put the background-color in the Parent contener */
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.auther {
+    align-self: flex-end;
+}
+
+
+.four {
+    margin: auto; /* if we want to be flexable with the page delete the width */
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    color: #e5e7eb;
+}
+.four > .four1 {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    background-color: rgb(100, 100, 252);
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+.four1 > .four-one {
+    flex: 3;
+    height: 50px;
+    align-items: center;
+}
+
+.four1 > .four-two {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.four-two > button {
+    height: 40px;
+    width: 120px;
+    align-self: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+
+.five {
+    background-color: #1f2937;/* if we don't want to be flexable with the page give it a width 1200px in the Parent contener */
+    height: 60px;
+}
+.five > .five1 {
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.five1 > h3 {
+    color: #f9faf8;
+}
